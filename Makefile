@@ -27,7 +27,7 @@ init: ## 初始化整个项目[第一次执行会比较慢]
 	@$(EXEC) init
 	@if [ ! -e "bin/go-tool" ]; then mkdir -p bin; wget https://github.com/Anthony-Dong/go-tool/releases/download/v1.1.1/go-tool-$(GOOS)-amd64.tgz; tar -zxvf go-tool-$(GOOS)-amd64.tgz ; rm -rf go-tool-$(GOOS)-amd64.tgz;chmod +x bin/go-tool; fi
 	@echo "配置Typora的上传文件的命令，可以参考 https://github.com/Anthony-Dong/go-tool/tree/master/command/upload"
-	@echo "$(PWD)/bin/go-tool  --log-level fatal upload --file\t"
+	@echo "$(PWD)/bin/go-tool  --log-level fatal upload --file "
 
 build: ## 构建
 	bin/go-tool hexo --dir ./ --target_dir ./hexo-home/source/_posts
