@@ -1,0 +1,6 @@
+*.cpp
+*.c
+*.class
+.DS_Store
+/bin
+/.idea

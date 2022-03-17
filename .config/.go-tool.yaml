@@ -1,0 +1,22 @@
+Upload:
+  Bucket:
+    default:
+      AccessKeyId: xxxx
+      AccessKeySecret: ihDP2HkiTQGYwMY1udCtq8cBQNKP5N
+      Endpoint: oss-accelerate.aliyuncs.com
+      UrlEndpoint: xxx.oss-accelerate.aliyuncs.com
+      Bucket: xxxx
+      PathPrefix: image
+    pdf:
+      AccessKeyId: xxxxx
+      AccessKeySecret: xxxxx
+      Endpoint: oss-accelerate.aliyuncs.com
+      UrlEndpoint: xxxx.oss-accelerate.aliyuncs.com
+      Bucket: xxxx
+      PathPrefix: pdf
+Hexo:
+  KeyWord:
+    - "敏感词"
+    - "敏感词2"
+  Ignore:
+    - hexo-home
