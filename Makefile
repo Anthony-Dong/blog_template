@@ -12,7 +12,7 @@
 PWD := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
 # EXEC_TYPE: docker | local 区别就是设置为docker，全部都运行在docker中! 如果你本地环境OK，那么你直接设置即可！
-EXEC_TYPE := "docker"
+EXEC_TYPE := ""
 EXEC := 
 GOOS := $(shell uname | tr A-Z a-z)
 
