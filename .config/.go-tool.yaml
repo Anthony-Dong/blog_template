@@ -2,7 +2,7 @@ Upload:
   Bucket:
     default:
       AccessKeyId: xxxx
-      AccessKeySecret: ihDP2HkiTQGYwMY1udCtq8cBQNKP5N
+      AccessKeySecret: xxxx
       Endpoint: oss-accelerate.aliyuncs.com
       UrlEndpoint: xxx.oss-accelerate.aliyuncs.com
       Bucket: xxxx
