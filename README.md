@@ -36,6 +36,7 @@ brew install node@16
 # 安装 hexo, 这里配置taobao的源，比较快！
 npm config set registry https://registry.npm.taobao.org
 npm install hexo-cli@4.3.0 -g
+npm install gulp-cli@2.3.0 -g
 ```
 
 - 初始化环境: 执行 `make init run` 即可！
@@ -44,11 +45,12 @@ npm install hexo-cli@4.3.0 -g
 ```shell
 ➜  note-master git:(master) ✗ make
  push                  push项目到远程
+ info                  项目信息
  create                创建博客文件的头部信息
  init                  初始化整个项目[第一次执行会比较慢]
- build                 重新构建网站
- run                   启动网站
- deploy                发布到个人网站
+ build                 构建
+ run                   启动
+ deploy                发布
  help                  帮助
 ```
 
