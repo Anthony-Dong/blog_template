@@ -31,6 +31,7 @@ unzip master.zip
 # 安装 node.js，如果你是mac环境完全可以下面这样安装
 brew install node@16
 # 其他环境，需要下载 https://nodejs.org/dist/v16.3.0/ 源码进行安装！
+# 更加推荐大家使用: https://github.com/nvm-sh/nvm  进行管理Node版本!
 
 # 安装 hexo, 这里配置taobao的源，比较快！
 npm config set registry https://registry.npm.taobao.org
@@ -194,7 +195,7 @@ Upload:
   Bucket:
     default:
       AccessKeyId: xxxx
-      AccessKeySecret: ihDP2HkiTQGYwMY1udCtq8cBQNKP5N
+      AccessKeySecret: xxxx
       Endpoint: oss-accelerate.aliyuncs.com
       UrlEndpoint: xxx.oss-accelerate.aliyuncs.com
       Bucket: xxxx
